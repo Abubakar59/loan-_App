@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loan_App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <nav>Home</nav>
+        <nav> Download Our App</nav>
+        <nav>Our services</nav>
+        <button>Apply Loan</button>
+    </nav>
+
+    <div class=" bg_image"></div>
+
+    <h1 class="he">APPLICATION FORM</h1>
+    <form class="form_holder" id="myform">
+
+
+
+
+        <div>
+            <label class>Title*</label>
+            <br>
+            <select id="title" class="name">
+                <option value=""></option>
+                <option value="Miss">Miss</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Mr">Mr</option>
+                <option value="Dr">Dr</option>
+            </select>
+            <span class="erro" id="Terro"> </span>
+        </div>
+
+
+        <div>
+            <label for="annualIncome">Current balance*</label><br>
+            <input type="text" placeholder="Current balance" id="currentbalance" class="name">
+            <span class="error_messege" id="balerro"></span>
+        </div>
+
+
+
+        <div>
+
+
+            <label class>6Month Transcation*</label>
+            <br>
+            <select id="6month_transaction" class="name">
+                <option value=""></option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+
+            </select>
+            <span class="erro" id="mcerro"> </span>
+        </div>
+        <div>
+
+
+            <label for="annualIncome">Lastdeposit*</label><br>
+            <input type="text" placeholder="Lastdeposit" id="lastdeposit" class="name">
+            <span class="error_messege" id="fullNameError"></span>
+        </div>
+
+        <div>
+            <label for="annualIncome">AnnualIncome*</label><br>
+            <input type="text" placeholder="AnnualIncome" id="annualIncome" class="name">
+            <span class="error_messege" id="anerro"></span>
+        </div>
+        <div>
+            <label for="annualIncome">Loan Amount*</label><br>
+            <input type="text" placeholder="Loan Amount" id="Loan Amount" class="name">
+            <span class="error_messege" id="Loan"></span>
+        </div>
+        <div>
+
+
+            <label class>Account Type*</label>
+            <br>
+            <select id="Account" class="name">
+                <option value=""></option>
+                <option value="Miss">Savings Account</option>
+                <option value="Mrs">Current Account</option>
+
+            </select>
+            <span class="erro" id="Acerro"> </span>
+        </div>
+
+
+
+
+        <div>
+
+            <button id="submit"> submit Application</button>
+    
+        </div>
+    </form>
+
+
+
+
+    
+    </div>
+
+
+
+
+
+
+    <script src="java.js"></script>
+</body>
+
+</html>

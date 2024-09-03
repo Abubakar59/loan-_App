@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    background-color: #E6E6F3;
+}
+
+.nav{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 55px;
+    width: 100%;
+    background-color: yellowgreen;
+    
+}
+.bg_image{
+ 
+    height: 327px;
+ width: 100%;
+   
+ background-image: url(./images/depositphotos_85063396-stock-photo-loan-application-form-with-house.jpg);
+}
+
+
+
+.form_holder{
+    
+    display: grid;
+       
+        
+        gap: 20px;
+
+        
+    
+}
+.he{
+    justify-content: 
+    center;
+    align-items: center;
+    display: flex;
+}
+
+.btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+
+    height: 40px;
+    width: 37%;
+}
